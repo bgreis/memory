@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 20
-  productGUID: 80e1a135929b6eb4787c54d78f66bda9
+  productGUID: a320d0c83eb194bf4ad0b9f88866cca1
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: InitUnity
+  productName: Memory_2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -42,8 +42,8 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 1920
-  defaultScreenHeight: 1080
+  defaultScreenWidth: 1024
+  defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
@@ -66,7 +66,7 @@ PlayerSettings:
   disableDepthAndStencilBuffers: 0
   androidStartInFullscreen: 1
   androidRenderOutsideSafeArea: 1
-  androidUseSwappy: 1
+  androidUseSwappy: 0
   androidBlitType: 0
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
@@ -113,12 +113,9 @@ PlayerSettings:
   switchNVNShaderPoolsGranularity: 33554432
   switchNVNDefaultPoolsGranularity: 16777216
   switchNVNOtherPoolsGranularity: 16777216
-  switchNVNMaxPublicTextureIDCount: 0
-  switchNVNMaxPublicSamplerIDCount: 0
-  stadiaPresentMode: 0
-  stadiaTargetFramerate: 0
   vulkanNumSwapchainBuffers: 3
   vulkanEnableSetSRGBWrite: 0
+  vulkanEnablePreTransform: 0
   m_SupportedAspectRatios:
     4:3: 1
     5:4: 1
@@ -242,7 +239,7 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   clonedFromGUID: 10ad67313f4034357812315f3c407484
-  templatePackageId: com.unity.template.2d@4.0.2
+  templatePackageId: com.unity.template.2d@4.0.1
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
@@ -261,9 +258,6 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
-  AndroidMinifyWithR8: 0
-  AndroidMinifyRelease: 0
-  AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
   m_BuildTargetIcons: []
@@ -479,7 +473,6 @@ PlayerSettings:
   ps4ShareFilePath: 
   ps4ShareOverlayImagePath: 
   ps4PrivacyGuardImagePath: 
-  ps4ExtraSceSysFile: 
   ps4NPtitleDatPath: 
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
@@ -522,8 +515,6 @@ PlayerSettings:
   ps4disableAutoHideSplash: 0
   ps4videoRecordingFeaturesUsed: 0
   ps4contentSearchFeaturesUsed: 0
-  ps4CompatibilityPS5: 0
-  ps4GPU800MHz: 1
   ps4attribEyeToEyeDistanceSettingVR: 0
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
@@ -554,7 +545,6 @@ PlayerSettings:
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
   allowUnsafeCode: 0
-  useDeterministicCompilation: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 1
